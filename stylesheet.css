@@ -1,0 +1,435 @@
+
+                *{
+                    margin: 0%;
+                    padding: 0%;
+                    box-sizing: border-box;
+                }
+                body{
+                  background-color:  #e5d8d8 ;
+                 
+                  
+                }
+                
+                
+                .navbar{
+                    background-color: #b8ac9d;
+                  
+                }
+
+                .ul{
+                    font-family: Arial Rounded MT Bold;
+                   }
+                   .login{
+                    margin-right: rem;
+                    border: 1px solid;
+                    border-radius: 100px;
+                    color: black;
+                  }
+                 .icon:hover{
+                  filter: drop-shadow(1px 1px 1px black);
+                  scale: 1.2;
+                 }
+                 .ul:hover{
+                    filter: drop-shadow(1px 1px 100px black);
+                    scale: 1.2;
+                   }
+
+
+                  .icon{
+                    margin-right: 5rem;
+                    cursor: pointer;
+                  }
+
+                  .navul{
+                    margin-left: 5rem !important;
+                  }
+
+                  .card{
+                    height: 300px;
+                  
+                  }
+
+                  .cards{
+                    height: 100%;
+                  }
+
+                                   /* perfumes */
+                  .perfume{
+                    background-color:#636363 ;
+                    height: 70px;
+                    width: 100%;
+                    font-size: 50px;
+                    color: #efe7dd;
+                    font-family: 'Arial Narrow Bold';
+                  }
+
+                  .addvertise{
+                    background-color: #959595;
+                    width: 100%;
+                    height: 230px;
+                    display: flex;
+                    flex-direction: row;
+                    align-items: center;
+                    justify-content: space-around;
+                  }
+
+                  .circle1{
+                    background-color: transparent;
+                    width: 220px;
+                    height: 220px;
+                   
+                    border-radius: 400px;
+                  }
+                  .circle2{
+                    background-color: transparent;
+                    width: 220px;
+                    height: 220px;
+                    border-radius: 400px;
+                  }
+                  .circle3{
+                    background-color: transparent;
+                    width: 220px;
+                    height: 220px;
+                    border-radius: 400px;
+                  }
+                  .circle4{
+                    background-color: transparent;
+                    width: 220px;
+                    height: 220px;              
+                    border-radius: 400px;
+                  }
+
+                  .img{
+                    width: 220px;
+                    height: 220px;
+                    border-radius: 400px;
+                  }
+
+                  .img:hover{
+                    scale: 1.04;
+                    filter: drop-shadow(1px 1px 5px black);
+
+                  }
+
+
+
+                  /* COLLECTION */
+
+            .collection{
+                background-color: #636363;
+                width: 100%;
+                height: 70px;
+                font-size: 50px;
+                    color: #efe7dd;
+                    font-family: 'Arial Narrow Bold';
+            }
+
+
+           .per{
+            height: 350px;
+           }
+
+           
+
+           .bag{
+           text-align: center;
+           }
+           .bag a{
+            text-decoration: none;
+            color: black;
+           }
+
+                    /* display flex */
+
+
+                    .maincoll{
+                      background-color:rgb(174, 128, 128);
+                      height: 350px;
+                      width: 100%;
+                      display: flex;
+                      flex-direction: row;
+                      justify-content: space-around;
+                    }
+                    .add a:hover{
+                     border-bottom: 1.5px solid; 
+                    
+                   
+                    }
+                    @media screen and (max-width:850px) {
+                      .add a{
+                        margin-top: 90px;
+                      }
+                    }
+                                    /* per1 */
+                    .per1{
+                      background-color: white;
+                      height: 100%;
+                      width: 250px;
+                      display: flex;
+                      flex-direction: column;
+                      align-items: center;
+                    }
+
+                    .sper1{
+                      background-color: transparent;
+                      width: 100%;
+                      height: 60%;
+                      position: relative;
+                    }
+                    .sper2{
+                      background-color: transparent;
+                      width: 100%;
+                      height: 30%;
+                      /* margin-top: 15px; */
+                    }
+                    
+                  
+                    
+                    .top{
+                      position: absolute;
+                      top: 0;
+                      left: 0;
+                      display: none;
+                      width: 100%;
+                      height:100%;
+                    }
+                    .sper1:hover .top{
+                      display: block;
+                    }
+                    .add a{
+                      background-color: transparent;
+                      width: 40%;
+                      height: 20px;
+                      font-family:'poppines',sans-serif;
+                      text-decoration: none;
+                      color: black;
+                      letter-spacing: 0.2px;
+                   
+
+                      
+                      
+                    }
+                    @keyframes add{
+                      from{
+                        border-bottom: 0px solid black;
+                      }
+                      to{
+                        border-bottom: 1.5px solid black;
+                      }
+                    }
+                    .p{
+                      font-size: 13px;
+                        color: #777272;
+                    }
+
+                    .name{
+                      color: rgb(0, 0, 0);
+                      font-size: 16px;
+                    }
+                    .pkr{
+                      color: rgb(0, 0, 0);
+                      font-size: 14px;
+                    }
+                                 /* per2 */
+                    .per2{
+                      background-color: white;
+                      height: 100%;
+                      width: 250px;
+                      display: flex;
+                      flex-direction: column;
+                      align-items: center;
+                    }
+                   
+                    .sper21{
+                      background-color:transparent;
+                      width: 100%;
+                      height: 60%;
+                      position: relative;
+                    }
+                    .top2{
+                      position: absolute;
+                      top: 0;
+                      left: 0;
+                      display: none;
+                      width:100%;
+                      height:100%;
+                    }
+                     .sper21:hover .top2{
+                      display: block;
+                    }
+                    .sper22{
+                      background-color: transparent;
+                      width: 100%;
+                      height: 30%;
+                      /* margin-top: 15px; */
+                    }
+                                  
+                           /* per3 */
+                    .per3{
+                      background-color: white;
+                      height: 100%;
+                      width: 250px;
+                      display: flex;
+                      flex-direction: column;
+                      align-items: center;
+                    }
+                   
+                    .sper31{
+                      background-color: transparent;
+                      width: 100%;
+                      height: 60%;
+                      position: relative;
+                    }
+                    .top3{
+                      position: absolute;
+                      top: 0;
+                      left: 0;
+                      display: none;
+                      width:100%;
+                      height:100%;
+                    }
+                     .sper31:hover .top3{
+                      display: block;
+                    }
+                    .sper32{
+                      background-color: transparent;
+                      width: 100%;
+                      height: 30%;
+                      /* margin-top: 15px; */
+                    }
+
+
+                                  /* per4 */
+                    .per4{
+                      background-color:white;
+                      height: 100%;
+                      width: 250px;
+                      display: flex;
+                      flex-direction: column;
+                      align-items: center;
+                    }
+                    
+                    .sper41{
+                      background-color: transparent;
+                      width: 100%;
+                      height: 60%;
+                      position: relative;
+                    }
+                    .top4{
+                      position: absolute;
+                      top: 0;
+                      left: 0;
+                      display: none;
+                      width:100%;
+                      height:100%;
+                    }
+                     .sper41:hover .top4{
+                      display: block;
+                    }
+                    .sper42{
+                      background-color:transparent;
+                      width: 100%;
+                      height: 30%;
+                      /* margin-top: 15px; */
+                    }
+
+
+                    /* fourcard */
+
+                       .coll{
+                        box-sizing: border-box;
+                        border: none;
+                       }
+
+
+                   .cardf{
+                    height: 400px;
+                    background-color:#e5d8d8 ;
+                    border: none;
+                    box-sizing: border-box;
+
+                   }
+                   .cll{
+                    background-color:#e5d8d8  ;
+                    border: none;
+                    box-sizing: border-box;
+                   } 
+
+                   .font{
+                    font-family:serif;
+                   text-align: center;
+                  
+                   }
+
+                   .font2{
+                    font-size: 18px;
+                    word-spacing: 8px;
+                   }
+
+                   .but{
+                    width: 140px;
+                    height: 50px;
+                    border-radius:50px;
+                    font-size: 20px;
+                    font-family:inherit;
+                    border: 1.5px solid;
+                   }
+
+                   .but:hover{
+                    background-color: green;
+                    color: white;
+                    box-shadow: 3px 2.5px 2px black;
+                   }
+
+
+
+                   /* footer */
+
+
+                   .fo{
+                    text-decoration: none;
+                   }
+
+
+                   /* .footer{
+                    background-color: aqua;
+                    height: 500px;
+                    width: 100%;
+                    display: flex;
+                    flex-direction: row;
+                    justify-content:space-between;
+                   }
+
+                   .f1{
+                    background-color: black;
+                    height: 100%;
+                    width: 20%;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    
+                   }
+                   .flogo{
+                    background-color: #636363;
+                    height: auto;
+                    width:100px;
+                    text-align: center;
+                   }
+
+                   .f2{
+                    background-color: pink;
+                    height: 100%;
+                    width: 25%;
+                   }
+
+                   .f3{
+                    background-color: rosybrown;
+                    height: 100%;
+                    width: 25%;
+                   }
+
+                   .f4{
+                    background-color: blue;
+                    height: 100%;
+                    width: 25%;
+                   } */
